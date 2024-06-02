@@ -1,0 +1,16 @@
+.company-stats-main {
+  background-color: #081f51;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 60px 20px;
+  gap: 60px;
+
+  .stat {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

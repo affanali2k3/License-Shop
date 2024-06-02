@@ -1,0 +1,50 @@
+.contact-options-main {
+  margin-top: 30px;
+
+  .live-chat {
+    padding: 20px;
+    h1 {
+      text-align: center;
+      color: #081f51;
+    }
+    .para {
+      margin-top: 10px;
+      line-height: 1.5;
+      text-align: center;
+    }
+    .chat-button-div {
+      margin-top: 30px;
+      display: flex;
+      justify-content: center;
+    }
+    .chat-button {
+      background-color: #ffc221;
+      display: flex;
+      color: white;
+      border: none;
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+      gap: 5px;
+    }
+  }
+
+  .contact-info {
+    background-image: url("/contact-details.png");
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+
+    .email {
+      img {
+        width: 40px;
+      }
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+  }
+}

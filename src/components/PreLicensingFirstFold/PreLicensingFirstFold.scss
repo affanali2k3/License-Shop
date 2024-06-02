@@ -1,0 +1,19 @@
+.pre-licensing-first-fold-main {
+  margin: 20px;
+
+  h1 {
+    color: #081f51;
+  }
+
+  img {
+    width: 90vw;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .pre-licensing-first-fold-main {
+    margin: 5%;
+    display: flex;
+    gap: 3vw;
+  }
+}

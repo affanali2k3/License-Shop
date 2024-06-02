@@ -1,0 +1,53 @@
+.our-story-main {
+  margin: 20px;
+
+  h1 {
+    color: #081f51;
+  }
+
+  .mission-div img {
+    display: none;
+  }
+
+  .story {
+    margin-top: 10px;
+    line-height: 1.4;
+  }
+  .learn-more-button {
+    margin-top: 20px;
+    background-color: #ffc221;
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 10px;
+    padding: 15px 40px;
+    width: fit-content;
+    p {
+      color: black;
+    }
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .our-story-main {
+    h1 {
+      font-size: 40px;
+    }
+    .story {
+      font-size: 18px;
+      line-height: 1.7;
+    }
+    .mission-div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5vw;
+      .content p {
+        max-width: 35vw;
+      }
+      img {
+        display: block;
+      }
+    }
+  }
+}

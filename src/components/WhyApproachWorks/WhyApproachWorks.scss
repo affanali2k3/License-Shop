@@ -1,0 +1,52 @@
+.why-approach-works-main {
+  padding: 20px;
+  background: #081f51;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h1 {
+    text-align: center;
+    color: #ffc221;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 12px;
+  }
+
+  .icon-text {
+    margin-top: 70px;
+    display: flex;
+    width: 60vw;
+    gap: 10px;
+    img {
+      width: 60px;
+      height: 60px;
+    }
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .why-approach-works-main {
+    margin-top: 0;
+    padding: 5%;
+    h1 {
+      font-size: 40px;
+    }
+    .approaches {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .icon-text {
+      width: 30%;
+      // display: flex;
+
+      justify-content: center;
+    }
+  }
+}

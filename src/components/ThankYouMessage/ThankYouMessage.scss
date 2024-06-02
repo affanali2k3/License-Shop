@@ -1,0 +1,30 @@
+.thank-you-main {
+  padding: 40px;
+  h1 {
+    text-align: center;
+  }
+  p {
+    text-align: center;
+    margin-top: 10px;
+  }
+  .para-2 {
+    text-decoration: underline;
+    margin-top: 20px;
+    text-align: center;
+    display: block;
+    // display: none;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .thank-you-main {
+    padding: 5%;
+
+    h1 {
+      font-size: 40px;
+    }
+    p {
+      font-size: 18px;
+    }
+  }
+}

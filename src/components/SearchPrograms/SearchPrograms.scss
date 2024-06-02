@@ -1,0 +1,14 @@
+.search-programs-main {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  .search-button {
+    background-color: #081f51;
+    padding: 10px;
+  }
+  input {
+    background-color: #f6f7f9;
+    border: 0.1px solid black;
+    padding: 10px;
+  }
+}

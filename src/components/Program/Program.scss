@@ -1,0 +1,45 @@
+.program-main {
+  position: relative;
+  margin-bottom: 80px;
+  img {
+    width: 90vw;
+  }
+  button {
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    background-color: #ffc221;
+    color: #081f51;
+  }
+  .content {
+    position: absolute;
+    background-color: white;
+    left: 0;
+    right: 0;
+    bottom: -40px;
+    padding: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    box-shadow: 0 13px 65px 0 rgba(0, 0, 0, 0.137);
+    // align-self: center;
+  }
+  // .content:active {
+  //   background: linear-gradient(90deg, #79aa8e, #043c35);
+
+  //   color: white;
+  // }
+}
+
+@media screen and (min-width: 800px) {
+  .program-main {
+    img {
+      max-width: 20vw;
+    }
+    .content {
+      width: 80%;
+    }
+  }
+}

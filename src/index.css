@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: raleway;
+  src: url("../src/assets/fonts/Raleway/Raleway-VariableFont_wght.ttf");
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+a {
+  font-family: raleway;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}

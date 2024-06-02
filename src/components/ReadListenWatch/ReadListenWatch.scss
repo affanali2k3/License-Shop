@@ -1,0 +1,28 @@
+.read-listen-watch-main {
+  padding: 20px;
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #081f51;
+  }
+  img {
+    width: 100%;
+  }
+  .images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+
+    .item {
+      position: relative;
+    }
+    h3 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      color: white;
+      font-size: 40px;
+      transform: translateX(-50%) translateY(-50%);
+    }
+  }
+}

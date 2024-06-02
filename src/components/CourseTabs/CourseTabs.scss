@@ -1,0 +1,40 @@
+.course-tabs-main {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  //   flex-basis: 0%;
+
+  .tab {
+    // border-right: 0;
+    padding: 10px;
+    border: 2px solid #043c35;
+    width: 50%;
+    text-align: center;
+  }
+  .tab:nth-child(1) {
+    border-right: none;
+    border-bottom: none;
+  }
+  .tab:nth-child(2) {
+    border-bottom: none;
+  }
+  .tab:nth-child(3) {
+    border-right: none;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .course-tabs-main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    .tab {
+      padding: 2%;
+    }
+    .tab:nth-child(2) {
+      border-bottom: 2px solid black;
+      border-right: none;
+    }
+  }
+}
