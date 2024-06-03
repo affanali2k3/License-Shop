@@ -38,3 +38,12 @@
     // animation: name duration timing-function delay iteration-count direction fill-mode;
   }
 }
+
+@media screen and (min-width: 800px) {
+  .career-assessment-main {
+    h1 {
+      font-size: 40px;
+      padding: 0 20%;
+    }
+  }
+}

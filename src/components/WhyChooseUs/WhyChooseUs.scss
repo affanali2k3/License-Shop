@@ -1,5 +1,6 @@
 .why-choose-us-main {
   padding: 20px;
+  background-color: #f7f8fa;
   h1 {
     font-size: 24px;
     color: #081f51;
@@ -21,5 +22,34 @@
   }
   img {
     display: none;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .why-choose-us-main {
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+
+    h1 {
+      text-align: start;
+      font-size: 40px;
+    }
+
+    h2 {
+      text-align: start;
+      font-size: 26px;
+    }
+
+    p {
+      text-align: start;
+      max-width: 40vw;
+      font-size: 20px;
+      line-height: 1.7;
+    }
+    img {
+      display: block;
+      width: 30vw;
+    }
   }
 }

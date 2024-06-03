@@ -12,7 +12,7 @@ export const WeGuaranteeSuccess = () => {
       </div>
       <div className="guarantee-success-video">
         <iframe
-          width={window.innerWidth > 800 ? window.innerWidth * 0.2 : window.innerWidth * 0.9}
+          width={window.innerWidth > 800 ? window.innerWidth * 0.4 : window.innerWidth * 0.9}
           height="315"
           src={`https://www.youtube.com/embed/MLpWrANjFbI`}
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

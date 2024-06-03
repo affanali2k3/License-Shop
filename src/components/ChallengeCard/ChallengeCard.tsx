@@ -7,7 +7,7 @@ interface props {
 
 export const ChallengeCard: React.FC<props> = (props) => {
   return (
-    <div>
+    <div className="challenge-card-main">
       <img src={props.imageUrl} />
     </div>
   );

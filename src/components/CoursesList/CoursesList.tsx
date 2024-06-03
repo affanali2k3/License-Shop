@@ -67,37 +67,44 @@ export const CoursesList: React.FC<props> = (props) => {
   );
   return (
     <section className="courses-list-main">
-      <div className="continuing-education-category category-splitter">
-        <h1>Continuing Education</h1>
+      {filteredContinuingEducationCourses.length == 0 ? null : (
+        <div className="continuing-education-category category-splitter">
+          <h1>Continuing Education</h1>
+        </div>
+      )}
+      <div className="continuing-education-courses-list">
+        {filteredContinuingEducationCourses.map((course, index) => (
+          <Course
+            key={index}
+            url={course.url}
+            id={index}
+            image={course.images}
+            title={course.title}
+            lectures={course.lectures}
+            duration={course.duration}
+            quizzes={course.quizzes}
+          />
+        ))}
       </div>
-      {filteredContinuingEducationCourses.map((course, index) => (
-        <Course
-          key={index}
-          url={course.url}
-          id={index}
-          image={course.images}
-          title={course.title}
-          lectures={course.lectures}
-          duration={course.duration}
-          quizzes={course.quizzes}
-        />
-      ))}
-
-      <div className="pre-licensing-category category-splitter">
-        <h1>Pre-Licensing</h1>
+      {filteredPreLicensingCourses.length == 0 ? null : (
+        <div className="pre-licensing-category category-splitter">
+          <h1>Pre-Licensing</h1>
+        </div>
+      )}
+      <div className="pre-licensing-courses-list">
+        {filteredPreLicensingCourses.map((course, index) => (
+          <Course
+            key={index}
+            url={course.url}
+            id={index}
+            image={course.images}
+            title={course.title}
+            lectures={course.lectures}
+            duration={course.duration}
+            quizzes={course.quizzes}
+          />
+        ))}
       </div>
-      {filteredPreLicensingCourses.map((course, index) => (
-        <Course
-          key={index}
-          url={course.url}
-          id={index}
-          image={course.images}
-          title={course.title}
-          lectures={course.lectures}
-          duration={course.duration}
-          quizzes={course.quizzes}
-        />
-      ))}
     </section>
   );
 };

@@ -14,3 +14,12 @@
     align-items: center;
   }
 }
+
+@media screen and (min-width: 800px) {
+  .company-stats-main {
+    padding: 5%;
+    margin: 5%;
+    gap: 15%;
+    justify-content: center;
+  }
+}

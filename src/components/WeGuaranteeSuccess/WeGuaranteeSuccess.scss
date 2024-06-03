@@ -3,6 +3,7 @@
   text-align: center;
   display: flex;
   flex-wrap: wrap;
+  background-color: #f7f8fa;
 
   h1 {
     color: #081f51;
@@ -13,5 +14,22 @@
   }
   .guarantee-success-video {
     margin-top: 30px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .we-guarantee-success-main {
+    h1 {
+      font-size: 40px;
+    }
+    padding: 5%;
+    justify-content: space-between;
+    align-items: center;
+    text-align: start;
+    p {
+      max-width: 40vw;
+      font-size: 20px;
+      line-height: 1.7;
+    }
   }
 }

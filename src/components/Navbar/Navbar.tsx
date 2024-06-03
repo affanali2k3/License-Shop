@@ -36,16 +36,23 @@ export const Navbar = () => {
       <div className="nav-menu">
         <ul>
           <li>
-            <a href="/">HOME</a>
+            <a href="/">Home</a>
+          </li>
+
+          <li>
+            <a href="programs">Programs</a>
           </li>
           <li>
-            <a href="continuing-education">CE COURSES</a>
+            <a href="courses">Courses</a>
           </li>
           <li>
-            <a href="pre-licensing">PRE LICENSING</a>
+            <a href="challenges">Challenges</a>
           </li>
           <li>
-            <a href="contact">CONTACT US</a>
+            <a href="about">About Us</a>
+          </li>
+          <li>
+            <a href="contact">Contact Us</a>
           </li>
         </ul>
       </div>

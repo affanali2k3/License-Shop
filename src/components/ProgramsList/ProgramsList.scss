@@ -1,0 +1,33 @@
+.programs-list-main {
+  padding: 20px;
+
+  .category-splitter {
+    background-color: #081f51;
+    margin: -20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .programs-list-main {
+    .real-estate-programs-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+    .home-inspection-programs-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+    // flex-wrap: wrap;
+    // justify-content: center;
+    gap: 2vw;
+  }
+}
