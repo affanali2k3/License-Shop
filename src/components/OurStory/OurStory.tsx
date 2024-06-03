@@ -14,7 +14,12 @@ export const OurStory = () => {
             committed to getting you the help you need anytime. If our FAQs did not answer your questions, you can enter your details and
             will get back to you as soon as possible...
           </p>
-          <div className="learn-more-button">
+          <div
+            className="learn-more-button"
+            onClick={() => {
+              window.location.href = "about";
+            }}
+          >
             <p>Read More</p>
             <img src="/arrow.png" />
           </div>

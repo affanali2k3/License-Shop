@@ -64,7 +64,9 @@ export const FindPerfectProgram = () => {
           )}
         </div>
 
-        <button className="search-btn">Search</button>
+        <button className="search-btn" onClick={() => (window.location.href = "programs")}>
+          Search
+        </button>
       </div>
     </div>
   );

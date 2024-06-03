@@ -22,7 +22,12 @@ export const TripleGuarantee = () => {
             <img src="/guarantee-3.png" />
             <p className="text">24/7 Customer Support</p>
           </div>
-          <div className="button-div">
+          <div
+            className="button-div"
+            onClick={() => {
+              window.location.href = "about";
+            }}
+          >
             <div className="learn-more-button">
               <p>Learn More</p>
               <img src="/arrow.png" />
