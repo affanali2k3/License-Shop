@@ -11,16 +11,7 @@ export const HeroSectionLanding = () => {
         <div
           className="learn-more"
           onClick={() => {
-            const targetElement = document.getElementById("triple-guarantee");
-            const targetPosition = targetElement!.getBoundingClientRect().top;
-            const offsetPosition = targetPosition - window.innerHeight / 2 + targetElement!.clientHeight / 2;
-
-            window.scrollTo({
-              top: window.scrollY + offsetPosition - 100,
-              behavior: "smooth",
-            });
-
-            // const targetPosition = targetElement.getBoundingClientRect().top + window.scrollY;
+            window.location.href = "about";
           }}
         >
           Learn More

@@ -10,7 +10,12 @@ export const SuccessStudents = () => {
           montes, nascetur ridiculus mus.{" "}
         </p>
         <h2>You will be the next</h2>
-        <div className="view-more-button">
+        <div
+          className="view-more-button"
+          onClick={() => {
+            window.location.href = "about";
+          }}
+        >
           <p>VIEW MORE</p>
           <img src="/arrow.png" />
         </div>

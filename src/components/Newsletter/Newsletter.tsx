@@ -48,8 +48,8 @@ export const Newsletter = () => {
           questions, you can enter your details and will get back to you as soon as possible.
         </p>
         <div className="inputs">
-          <form ref={formRef} method="post" action="https://systeme.io/embedded/18252271/subscription" onSubmit={handleSubmit}>
-            <input required={true} type="text" name="first_name" placeholder="First Name" />
+          <form ref={formRef} method="post" action="https://systeme.io/embedded/18404581/subscription" onSubmit={handleSubmit}>
+            <input required={true} type="text" name="surname" placeholder="First Name" />
             <input required={true} type="text" name="email" placeholder="Email" />
             <button type="submit" className="join-button btn">
               JOIN THE COMMUNITY
