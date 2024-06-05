@@ -28,7 +28,7 @@ export const Navbar = () => {
     <nav id="navbar" className="nav-main">
       <img
         className="brand"
-        src="/logo.png"
+        src="/logo-black.png"
         onClick={() => {
           window.location.href = "/";
         }}
