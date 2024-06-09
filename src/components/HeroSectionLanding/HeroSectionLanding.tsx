@@ -6,7 +6,7 @@ export const HeroSectionLanding = () => {
       {window.innerWidth > 800 ? <img src="/hero-sec-desktop.png" /> : <img src="/hero-sec.png" />}
       <div className="text-button">
         <h1>
-          Guaranteed <span>Passing the Exam</span> and Six Figure in Your First Year!
+          We Guarantee You Will <span>Pass The Exam </span> And Make <span>Six Figures</span> In Your <span>First Year</span>
         </h1>
         <div
           className="learn-more"

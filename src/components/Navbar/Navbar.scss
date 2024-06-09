@@ -73,6 +73,25 @@
   }
 }
 
+.programs-nav:hover {
+  // display: block;
+  .programs-dropdown {
+    display: flex;
+  }
+}
+
+.programs-dropdown {
+  position: absolute;
+  background-color: #081f51;
+  // width: ;#
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  // justify-content: center;
+  display: none;
+}
+
 @media screen and (min-width: 800px) {
   .nav-main {
     padding: 20px;

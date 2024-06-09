@@ -4,13 +4,13 @@ export const SuccessStudents = () => {
   return (
     <section className="success-students-main">
       <div className="you-will-be-next">
-        <h1>Success Stories Of Our Students</h1>
-        <p className="para">
+        <h1>Our Student's Sucess Is Our Success</h1>
+        {/* <p className="para">
           Pellentesque non aliquet sem. Aliquam facilisis nec velit vitae commodo. Orci varius natoque penatibus et magnis dis parturient
           montes, nascetur ridiculus mus.{" "}
-        </p>
+        </p> */}
         <h2>You will be the next</h2>
-        <div
+        {/* <div
           className="view-more-button"
           onClick={() => {
             window.location.href = "about";
@@ -18,7 +18,7 @@ export const SuccessStudents = () => {
         >
           <p>VIEW MORE</p>
           <img src="/arrow.png" />
-        </div>
+        </div> */}
       </div>
       <div className="testimonial-videos">
         <div className="video-testimonial">

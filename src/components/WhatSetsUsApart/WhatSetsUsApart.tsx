@@ -5,7 +5,7 @@ export const WhatSetsUsApart = () => {
     <section className="what-sets-us-apart-main">
       <h1>What Sets Us Apart?</h1>
       <h2>Our Guaranteed Path to Six Figures</h2>
-      <div className="video-responsive">
+      {/* <div className="video-responsive">
         <iframe
           className="iframe"
           width={window.innerWidth > 800 ? window.innerWidth * 0.9 : window.innerWidth}
@@ -15,7 +15,7 @@ export const WhatSetsUsApart = () => {
           allowFullScreen
           title="Embedded youtube"
         />
-      </div>
+      </div> */}
     </section>
   );
 };

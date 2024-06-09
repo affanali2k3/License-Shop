@@ -14,13 +14,14 @@ import { AboveNavbar } from "./components/AboveNavbar/AboveNavbar";
 import { Challenges } from "./pages/Challenges";
 import { Programs } from "./pages/Programs";
 import { AboutUs } from "./pages/AboutUs";
+import { PrivacyPolicy } from "./pages/PrivacyPolicy";
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
       <BrowserRouter>
-        <AboveNavbar />
+        {/* <AboveNavbar /> */}
         <Navbar />
 
         <Routes>
@@ -29,6 +30,7 @@ function App() {
           <Route path="/courses" element={<Courses />} />
           <Route path="/programs" element={<Programs />} />
           <Route path="/contact" element={<ContactUs />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/pre-licensing" element={<ProgramPage title="Pre Licensing" type="Program" />} />
           <Route path="/program-01" element={<ProgramPage title="Real Estate 01" type="Program" />} />
           <Route path="/program-02" element={<ProgramPage title="Real Estate 02" type="Program" />} />

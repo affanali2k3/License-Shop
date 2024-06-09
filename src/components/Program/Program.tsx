@@ -18,8 +18,8 @@ export const Program: React.FC<props> = (props) => {
     <div id={`program-${props.id}`} className="program-main">
       <img src={props.image} />
       <div className="content" style={{ background: bgColor, color: color }}>
-        <h1>{props.title}</h1>
-        <p>{props.subtitle}</p>
+        {/* <h1>{props.title}</h1> */}
+        {/* <p>{props.subtitle}</p> */}
         <button onClick={handleProgramClick} className="join-program-button">
           JOIN PROGRAM
         </button>

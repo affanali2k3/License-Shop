@@ -40,13 +40,14 @@
     .approaches {
       display: flex;
       flex-wrap: wrap;
+      // align-items: center;
       justify-content: center;
     }
     .icon-text {
       width: 30%;
       // display: flex;
 
-      justify-content: center;
+      // justify-content: center;
     }
   }
 }

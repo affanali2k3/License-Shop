@@ -16,7 +16,7 @@ export const LandingPage = () => {
     <>
       {" "}
       <HeroSectionLanding />
-      <FindPerfectProgram />
+      {/* <FindPerfectProgram /> */}
       <Sponsors />
       <WhatSetsUsApart />
       <TripleGuarantee />
@@ -26,7 +26,7 @@ export const LandingPage = () => {
       {/* <WeHaveBestPrograms /> */}
       <OurStory />
       <SuccessStudents />
-      <ReadListenWatch />
+      {/* <ReadListenWatch /> */}
     </>
   );
 };

@@ -9,10 +9,7 @@ export const BecomeInstructor = () => {
         </div>
         <div className="content">
           <h1>Become an Instructor join with Us</h1>
-          <p>
-            Aliquam mauris leo, mollis tempus semper in, fringilla ac libero. Curabitur id venenatis leo. Aenean id venenatis lectus, ac
-            semper lacus. Vestibulum malesuada
-          </p>
+          <p>If you have experience and interest please apply below</p>
         </div>
         <div className="image-div image-second">
           <img src="/instructor-1.png" />
@@ -22,10 +19,10 @@ export const BecomeInstructor = () => {
         </div>
       </div>
       <div className="button-div">
-        <div className="join-button">
+        <a href="mailto:careers@licenseshop.com" className="join-button">
           <p>JOIN WITH US</p>
           <img src="/arrow-white.png" />
-        </div>
+        </a>
       </div>
     </section>
   );

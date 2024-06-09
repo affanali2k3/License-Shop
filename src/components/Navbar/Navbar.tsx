@@ -39,15 +39,19 @@ export const Navbar = () => {
             <a href="/">Home</a>
           </li>
 
-          <li>
+          <li className="programs-nav">
             <a href="programs">Programs</a>
+            <div className="programs-dropdown">
+              <a href="programs">#1 Challenges</a>
+              <a href="programs">#2 Courses</a>
+            </div>
           </li>
-          <li>
+          {/* <li>
             <a href="courses">Courses</a>
           </li>
           <li>
             <a href="challenges">Challenges</a>
-          </li>
+          </li> */}
           <li>
             <a href="about">About Us</a>
           </li>

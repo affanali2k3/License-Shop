@@ -25,10 +25,10 @@ export const Footer = () => {
               <a href="programs">Programs</a>
             </li>
             <li>
-              <a href="challenges">Challenges</a>
+              <a href="programs">Challenges</a>
             </li>
             <li>
-              <a href="challenges">About Us</a>
+              <a href="about">About Us</a>
             </li>
           </ul>
 
@@ -36,7 +36,7 @@ export const Footer = () => {
             <li>Contact</li>
 
             <li className="support-contact">support@licenseshop.com</li>
-            <li className="support-contact">+1 (123) 456 789 </li>
+            <li className="support-contact">+1 (240) 387 9785 </li>
             <li>Send Us A Message</li>
             <li className="socials-list">
               <img src="/facebook.png" />

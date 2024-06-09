@@ -9,10 +9,10 @@ export const OurStory = () => {
           <h1>Our Mission</h1>
 
           <p className="story">
-            As a customer oriented company, we’re committed to getting you the help you need anytime. If our FAQs did not answer your
-            questions, you can enter your details and will get back to you as soon as possible. As a customer oriented company, we’re
-            committed to getting you the help you need anytime. If our FAQs did not answer your questions, you can enter your details and
-            will get back to you as soon as possible...
+            As a customer oriented company, we’re committed to our students for life. Its a bold statement that most companies wouldn't make
+            but we see our students as an extension of us and are our family. We want to see them succeed and fly beyond their goals and
+            because we see intrisically that their success is our success. The more we can allow our students to grow, we as a company can
+            grow. If our students are not growing, we are not growing as a company.
           </p>
           <div
             className="learn-more-button"
@@ -20,7 +20,7 @@ export const OurStory = () => {
               window.location.href = "about";
             }}
           >
-            <p>Read More</p>
+            <p>JOIN OUR FAMILY AND ALLOW US TO GROW TOGETHER</p>
             <img src="/arrow.png" />
           </div>
         </div>

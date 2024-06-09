@@ -6,21 +6,21 @@ export const TripleGuarantee = () => {
       <div className="guarantee-content">
         <h1>Triple Guarantee</h1>
         <p className="para">
-          Lorem ipsum dolor sit amet consectetur. Netus feugiat tristique dignissim nisl ut ut maecenas rhoncus. Vitae integer cursus lectus
-          purus at et. Amet ipsum consequat pellentesque enim elementum.{" "}
+          We make sure that this is the best financial desicision you have ever made to join our family and create a long term relationship
+          with us and the way we do that is that we guarantee three these three things
         </p>
         <div className="guarantee-items">
           <div className="guarantee-item">
             <img src="/guarantee-1.png" />
-            <p className="text">Pass the Exam</p>
+            <p className="text">You are going to Pass the Exam</p>
           </div>
           <div className="guarantee-item">
             <img src="/guarantee-2.png" />
-            <p className="text">Six Figure in the First Year</p>
+            <p className="text">You are going to get Six Figures in your First Year</p>
           </div>
           <div className="guarantee-item">
             <img src="/guarantee-3.png" />
-            <p className="text">24/7 Customer Support</p>
+            <p className="text">You continue to keep increasing your business every year based on your goals</p>
           </div>
           <div
             className="button-div"
@@ -41,7 +41,7 @@ export const TripleGuarantee = () => {
         </div>
       </div>
 
-      <div className="video-guarantee">
+      {/* <div className="video-guarantee">
         <iframe
           width={window.innerWidth > 800 ? window.innerWidth * 0.2 : window.innerWidth}
           height="315"
@@ -50,7 +50,7 @@ export const TripleGuarantee = () => {
           allowFullScreen
           title="Embedded youtube"
         />
-      </div>
+      </div> */}
     </section>
   );
 };
