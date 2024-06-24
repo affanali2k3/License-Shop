@@ -29,7 +29,7 @@ export const WhyChooseUs = () => {
           <p>
             Nobody sets out to get a license for the purpose of putting it on the wall. Its to generate revenue. We feel so confident in our
             process, our systems that we guarantee that you are going to make six figures in your first year. How can we do that? Its
-            because we have systems and processes that we have refind via our students and the founder himself. We provide accountability
+            because we have systems and processes that we have refined via our students and the founder himself. We provide accountability
             and coaching to make sure that you stay on path and that if you have issues and problems we bring you back because we want to
             make this as simple as possible but that does not mean that there will not be hard work. You will have hard work to do but you
             will know what you need to do and you will have resources in terms of accountability and coaching to make sure you can get back

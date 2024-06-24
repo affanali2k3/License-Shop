@@ -6,8 +6,8 @@ export const TripleGuarantee = () => {
       <div className="guarantee-content">
         <h1>Triple Guarantee</h1>
         <p className="para">
-          We make sure that this is the best financial desicision you have ever made to join our family and create a long term relationship
-          with us and the way we do that is that we guarantee three these three things
+          We make sure that this is the best financial decision you have ever made to join our family and create a long-term relationship
+          with us, and the way we do that is that we guarantee these three things.
         </p>
         <div className="guarantee-items">
           <div className="guarantee-item">

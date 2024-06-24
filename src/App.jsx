@@ -15,6 +15,7 @@ import { Challenges } from "./pages/Challenges";
 import { Programs } from "./pages/Programs";
 import { AboutUs } from "./pages/AboutUs";
 import { PrivacyPolicy } from "./pages/PrivacyPolicy";
+import { TawkTo } from "./components/Tawk.to/Tawk";
 function App() {
   const [count, setCount] = useState(0);
 
@@ -47,6 +48,7 @@ function App() {
 
         <Newsletter />
         <Footer />
+        <TawkTo />
       </BrowserRouter>
     </>
   );
