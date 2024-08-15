@@ -33,15 +33,9 @@ export const FindPerfectProgram = () => {
             </button>
             {careerDropdownIsOpen && (
               <div className="dropdown-content">
-                <a href="#" onClick={() => handleCareerItemClick("Career 1")}>
-                  Career 1
-                </a>
-                <a href="#" onClick={() => handleCareerItemClick("Career 2")}>
-                  Career 2
-                </a>
-                <a href="#" onClick={() => handleCareerItemClick("Career 3")}>
-                  Career 3
-                </a>
+                <p onClick={() => handleCareerItemClick("Real Estate")}>Real Estate</p>
+                <p onClick={() => handleCareerItemClick("Home Inspection")}>Home Inspection</p>
+                <p onClick={() => handleCareerItemClick("Credit Repair")}>Credit Repair</p>
               </div>
             )}
           </div>
@@ -52,20 +46,13 @@ export const FindPerfectProgram = () => {
             </button>
             {courseDropdownIsOpen && (
               <div className="dropdown-content">
-                <a href="#" onClick={() => handleCourseItemClick("Course 1")}>
-                  Course 1
-                </a>
-                <a href="#" onClick={() => handleCourseItemClick("Course 2")}>
-                  Course 2
-                </a>
-                <a href="#" onClick={() => handleCourseItemClick("Course 3")}>
-                  Course 3
-                </a>
+                <p onClick={() => handleCourseItemClick(`${selectedCareer} Challenge`)}>{selectedCareer} Challenge</p>
+                <p onClick={() => handleCourseItemClick(`${selectedCareer} Course`)}>{selectedCareer} Course</p>
               </div>
             )}
           </div>
 
-          <button className="search-btn" onClick={() => (window.location.href = "programs")}>
+          <button className="search-btn" onClick={() => (window.location.href = "program-02")}>
             Search
           </button>
         </div>

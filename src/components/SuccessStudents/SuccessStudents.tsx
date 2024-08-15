@@ -9,7 +9,7 @@ export const SuccessStudents = () => {
           Pellentesque non aliquet sem. Aliquam facilisis nec velit vitae commodo. Orci varius natoque penatibus et magnis dis parturient
           montes, nascetur ridiculus mus.{" "}
         </p> */}
-        <h2>You will be the next</h2>
+        <h2>You will be next</h2>
         {/* <div
           className="view-more-button"
           onClick={() => {

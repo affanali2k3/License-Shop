@@ -12,6 +12,7 @@ export const WhyWeDoChallenges = () => {
       </p>
       <img src="/challenge-1.png" />
       <img src="/challenge-2.png" />
+      <img src="/challenge-3.png" />
     </section>
   );
 };

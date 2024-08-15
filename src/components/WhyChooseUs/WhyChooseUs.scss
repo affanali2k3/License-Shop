@@ -31,6 +31,11 @@
     display: flex;
     justify-content: space-between;
 
+    .image-div {
+      display: flex;
+      align-items: center;
+    }
+
     h1 {
       text-align: start;
       font-size: 40px;

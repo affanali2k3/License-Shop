@@ -1,8 +1,10 @@
 .find-perfect-program-main {
   background-color: #081f51;
+  // background-position: center;
   color: white;
   padding: 40px;
-  margin: 10px;
+  // margin: 10px;
+  margin-top: 30px;
   border-radius: 10px;
 
   .dropdown {
@@ -34,11 +36,12 @@
     z-index: 1;
   }
 
-  .dropdown-content a {
+  .dropdown-content p {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+    cursor: pointer;
   }
 
   .dropdown-content a:hover {
@@ -81,8 +84,8 @@
     justify-content: center;
     background: none;
     padding: 0;
-    margin: 0;
-    margin-bottom: -320px;
+    margin-top: 40px;
+    // margin-bottom: -320px;
     // top: 0;
     // position: absolute;
     .find-perfect-program-secondary {
@@ -93,7 +96,7 @@
       padding: 40px;
     }
     // position: absolute;
-    transform: translateY(-300px);
+    // transform: translateY(-300px);
     // width: 60%;
     // display: flex;
     // align-self: center;

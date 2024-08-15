@@ -1,0 +1,17 @@
+.difference-image-div {
+  display: flex;
+  justify-content: center;
+  // align-items: center;
+  margin-top: 40px;
+  img {
+    width: 90vw;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .difference-image-div {
+    img {
+      max-width: 40vw;
+    }
+  }
+}

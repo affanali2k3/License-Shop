@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { SearchPrograms } from "../SearchPrograms/SearchPrograms";
 import { ProgramsList } from "../ProgramsList/ProgramsList";
-
+import "./SearchProgramParent.scss";
 export const SearchProgramsParent = () => {
   const [searchTerm, setSearchTerm] = useState("");
 
@@ -10,7 +10,10 @@ export const SearchProgramsParent = () => {
   };
   return (
     <>
-      <SearchPrograms onSearch={handleSearch} />
+      <div className="difference-image-div">
+        <img src="difference-challenge-program.png" />
+      </div>
+      {/* <SearchPrograms onSearch={handleSearch} /> */}
       <ProgramsList searchTerm={searchTerm} />
     </>
   );

@@ -42,6 +42,7 @@ export const Navbar = () => {
           <li className="programs-nav">
             <a href="programs">Programs</a>
             <div className="programs-dropdown">
+              <a href="programs">Difference between Challenge & Course</a>
               <a href="programs">#1 Challenges</a>
               <a href="programs">#2 Courses</a>
             </div>
@@ -68,15 +69,19 @@ export const Navbar = () => {
               <a href="/">Home</a>
             </li>
 
-            <li>
-              <a href="programs">Programs</a>
+            <li
+              onClick={() => {
+                document.getElementById("programs-dropdown-mobile")?.classList.toggle("programs-dropdown-mobile-display");
+              }}
+            >
+              <p>Programs</p>
+              <div id="programs-dropdown-mobile" className="programs-dropdown-mobile">
+                <a href="programs">Difference between Challenge & Course</a>
+                <a href="programs">#1 Challenges</a>
+                <a href="programs">#2 Courses</a>
+              </div>
             </li>
-            <li>
-              <a href="courses">Courses</a>
-            </li>
-            <li>
-              <a href="challenges">Challenges</a>
-            </li>
+
             <li>
               <a href="about">About Us</a>
             </li>

@@ -3,7 +3,7 @@ import "./ContactOptions.scss";
 export const ContactOptions = () => {
   return (
     <section className="contact-options-main">
-      <div className="live-chat">
+      {/* <div className="live-chat">
         <h1>Contact Us through Live Chat</h1>
 
         <div className="chat-button-div">
@@ -12,7 +12,7 @@ export const ContactOptions = () => {
             <p>CLICK FOR LIVE CHAT</p>
           </button>
         </div>
-      </div>
+      </div> */}
       <div className="contact-info">
         <div className="email">
           <img src="/email.png" />

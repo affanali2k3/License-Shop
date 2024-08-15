@@ -46,7 +46,9 @@ export const WhyChooseUs = () => {
           <p>We provide 24/7 customer support to make sure your questions are answered.</p>
         </div>
       </div>
-      <img src="/why-choose-us.png" />
+      <div className="image-div">
+        <img src="/why-choose-us.png" />
+      </div>
     </section>
   );
 };
