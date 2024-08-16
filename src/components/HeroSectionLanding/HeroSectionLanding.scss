@@ -1,6 +1,6 @@
 .hero-sec-main {
   position: relative;
-  background-image: url("hero-sec-mobile.png");
+  background-image: url("../../../public/hero-sec-mobile.png");
   background-size: cover;
   padding: 5%;
   padding-top: 15%;
@@ -67,7 +67,7 @@
 
 @media screen and (min-width: 800px) {
   .hero-sec-main {
-    background-image: url("hero-sec.jpg");
+    background-image: url("../../../public/hero-sec.jpg");
 
     .hero-sec-secondary {
       display: flex;
